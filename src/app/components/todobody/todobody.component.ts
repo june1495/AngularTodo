@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todobody.component.css'],
 })
 export class TodobodyComponent implements OnInit {
+  email: string = '';
+  username: string = '';
+  password: string = '';
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.email;
+  }
 }
